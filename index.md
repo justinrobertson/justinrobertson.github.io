@@ -1,4 +1,4 @@
-(#top)It's very easy to make some words **bold** and other words *italic*  and yet other ~~strikthrough~~ with Markdown. You can even [link to Google!](http://google.com)
+It's very easy to make some words **bold** and other words *italic*  and yet other ~~strikthrough~~ with Markdown. You can even [link to Google!](http://google.com)
 
 # This is an <h1> tag
 ## This is an <h2> tag
