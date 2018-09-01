@@ -1,4 +1,4 @@
-It's very easy to make some words **bold** and other words *italic*  and yet other ~~strikthrough~~ with Markdown. You can even [link to Google!](http://google.com)
+(#top)It's very easy to make some words **bold** and other words *italic*  and yet other ~~strikthrough~~ with Markdown. You can even [link to Google!](http://google.com)
 
 # This is an <h1> tag
 ## This is an <h2> tag
@@ -44,3 +44,5 @@ As Kanye West said:
 Inline code
 I think you should use an
 `<addr>` element here instead.
+
+[Top of page](#top)
