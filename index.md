@@ -15,7 +15,21 @@ Remember that SS stressed the importance of the bibliography.
 
 *Well-stirred vessel:* A reaction vessel in which the actual position of the molecules is not modelled and so has no effect on the reactions taking place. The state of the system in a well-stirred vessel is fully described by the concentrations of each species present.
 
-*Spatial reactor:* A reaction vessel that ta  kes account of the physical distance between potential reactants. They cannot react unless they meet.
+*Spatial reactor:* A reaction vessel that takes account of the physical distance between potential reactants. They cannot react unless they meet.
+
+### The general structure of an AC
+
+* S: The set of molecules.
+This can be infinite.
+* R: The rules by which molecules combine. When two molecules collide, if a set of rules is fulfilled then combination occurs. Parameters for proximity, rate, probability of reaction, energy, etc, can be included here.
+* A: The algorithm describing the dynamics of the reactor vessel, e.g. is it well-stirred or spatial, does it have inflow and outflow, and how are collisions modelled.
+
+#### Modelling collisions
+
+##### Stochastic collisions
+
+This is the naive approach that immediately suggests itself. The system is sampled at random (perhaps according to concentration) and a collision is then assumed between the selected molecules. A matching rule is sought and if one is found then the molecules combine according to the rule, otherwise they return to the reactor. Each collision is a separate event. *Most systems of interest are open systems relying on an inflow of raw materials and energy and an outflow of waste.* Presumably closed systems reach an equilibrium quickly.
+
 
 ## York referencing (#referencing)
 ## List of relevant articles
