@@ -28,7 +28,7 @@ This can be infinite.
 
 ##### Stochastic collisions
 
-This is the naive approach that immediately suggests itself. The system is sampled at random (perhaps according to concentration) and a collision is then assumed between the selected molecules. A matching rule is sought and if one is found then the molecules combine according to the rule, otherwise they return to the reactor. Each collision is a separate event. *Most systems of interest are open systems relying on an inflow of raw materials and energy and an outflow of waste.* Presumably closed systems reach an equilibrium quickly.
+This is the naive approach that immediately suggests itself. The system is sampled at random (perhaps according to concentration) and a collision is then assumed between the selected molecules. A matching rule is sought and if one is found then the molecules combine according to the rule, otherwise they return to the reactor. Each collision is a separate event. *Most systems of interest are open systems relying on an inflow of raw materials and energy and an outflow of waste.* Presumably closed systems reach an equilibrium quickly. 
 
 
 ## York referencing (#referencing)
