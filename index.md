@@ -28,8 +28,13 @@ This can be infinite.
 
 ##### Stochastic collisions
 
-This is the naive approach that immediately suggests itself. The system is sampled at random (perhaps according to concentration) and a collision is then assumed between the selected molecules. A matching rule is sought and if one is found then the molecules combine according to the rule, otherwise they return to the reactor. Each collision is a separate event. *Most systems of interest are open systems relying on an inflow of raw materials and energy and an outflow of waste.* Presumably closed systems reach an equilibrium quickly. 
+This is the naive approach that immediately suggests itself. The system is sampled at random (perhaps according to concentration) and a collision is then assumed between the selected molecules. A matching rule is sought and if one is found then the molecules combine according to the rule, otherwise they return to the reactor. Each collision is a separate event. *Most systems of interest are open systems relying on an inflow of raw materials and energy and an outflow of waste.* Presumably closed systems reach an equilibrium quickly.
 
+This approach is inefficient when most collisions turn out to be elastic (ie no combination happens). It is also difficult to model arbitrary reactions between more than two molecules.
+
+##### Specialized stochastic simulation algorithms
+
+Some specialized algorithms that mimic stochastic processes have been developed to try to overcome the disadvantages of stochastic sampling of collisions, the most famous of which is [Gillespie's stochastic simulation algorithm (SSA)](https://en.wikipedia.org/wiki/Gillespie_algorithm). 
 
 ## York referencing (#referencing)
 ## List of relevant articles
