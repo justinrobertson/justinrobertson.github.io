@@ -8,8 +8,15 @@ Academic resources
 Online Courses
 
 ## Banzhaf & Yamamoto book
+
 Remember that SS stressed the importance of the bibliography.
-A nonconstructive chemistry is one in which all the molecular objects are known beforehand.
+
+*Nonconstructive chemistry:* one in which all the molecular objects are known beforehand.
+
+*Well-stirred vessel:* A reaction vessel in which the actual position of the molecules is not modelled and so has no effect on the reactions taking place. The state of the system in a well-stirred vessel is fully described by the concentrations of each species present.
+
+*Spatial reactor:* A reaction vessel that ta  kes account of the physical distance between potential reactants. They cannot react unless they meet.
+
 ## York referencing (#referencing)
 ## List of relevant articles
 ## MetaChem
