@@ -8,6 +8,7 @@ Academic resources
 Online Courses
 
 ## Banzhaf & Yamamoto book
+Remember that SS stressed the importance of the bibliography.
 A nonconstructive chemistry is one in which all the molecular objects are known beforehand.
 ## York referencing (#referencing)
 ## List of relevant articles
