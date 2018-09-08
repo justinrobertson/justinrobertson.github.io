@@ -7,7 +7,15 @@ Source code examples and breakdown
 Academic resources
 Online Courses
 
-## Banzhaf & Yamamoto book
+# Artificial Life Models in Software
+
+## Chapter 10: Artificial Chemistries (Kaleta)
+
+There is a thing called Chemical Organization Theory. Computer simulations generate a lot of data in a short time, which wet chemistries can't. "These fields try to understand real living systems not by considering them in mechanistic detail, but from an abstract point of view. Thus, they study how concepts like self-replication of information processing and storage might have evolved." Systems Biology Markup Language (SBML) is suggested as a standard for representation of reaction networks. Systems Biology Workbench (SBW) interfaces with a variety of programming languages and can load a reaction network specified in SBML and do analysis on it. Perhaps MetaChem can be implemented in XML?
+
+![Rule set and reaction matrix](img/reaction matrix.png)
+
+# Banzhaf & Yamamoto book
 
 Remember that SS stressed the importance of the bibliography.
 
@@ -34,14 +42,30 @@ This approach is inefficient when most collisions turn out to be elastic (ie no 
 
 ##### Specialized stochastic simulation algorithms
 
-Some specialized algorithms that mimic stochastic processes have been developed to try to overcome the disadvantages of stochastic sampling of collisions, the most famous of which is [Gillespie's stochastic simulation algorithm (SSA)](https://en.wikipedia.org/wiki/Gillespie_algorithm). 
+Some specialized algorithms that mimic stochastic processes have been developed to try to overcome the disadvantages of stochastic sampling of collisions, the most famous of which is [Gillespie's stochastic simulation algorithm (SSA)](https://en.wikipedia.org/wiki/Gillespie_algorithm). The principal advantage of this algorithm is that it doesn't compute elastic collisions. Chapter 4 deals with this type of algorithm.
+
+##### Continuous differential or discrete difference equations
+
+This approach uses systems of differential equations in which the set of ODEs at time t determine the changes to the system at time t and therefore the set of ODEs at time t+1. This approach is not considered appropriate for constructive ACs in which the aim to generate novelty and emergent complexity.
+
+##### Metadynamics
+
+This approach aims to address the problem of novelty in the ODE approach by adding and removing ODEs over time. A further refinement called stochastic metadynamics introduces novelty through random events. In most implementations the ODEs need to be solved numerically.
+
+#### Other distinctions
+
+##### Explicit vs Implicit: Defining the Set S
+
+An explicit chemistry is one in which the possible molecules are known a priori and can be enumerated. An implicit chemistry is one in which the possible molecules are specified by an expression or set of instructions as to how molecules can be constructed, but an enumeration is impossible.
+
+The RGB chameleons are given as a non-constructive explicit chemistry (ie no new colours of chameleons appear and all possible chameleons are known at the outset). The number division chemistry is given as an example of a constructive implicit chemistry. Numbers appear in the system that were not in the initial system and it isn't possible to say
 
 ## York referencing (#referencing)
 ## List of relevant articles
 ## MetaChem
 ## Source code examples and breakdown
 
-It's very easy to make some words **bold** and other words *italic*  and yet other ~~strikthrough~~ with Markdown. You can even [link to Google!](http://google.com)
+It's very easy to make some words **bold** and other words *italic*  and yet other ~~strikethrough~~ with Markdown. You can even [link to Google!](http://google.com)
 
 # This is an <h1> tag
 ## This is an <h2> tag
