@@ -272,7 +272,6 @@ compress_html:
   ignore:
     envs: development
 
-
 # Defaults
 defaults:
   # _posts
@@ -287,6 +286,7 @@ defaults:
       share: true
       related: true
       classes: wide
+      mathjax: true
     sidebar:
       nav: sidebar-sample
 
@@ -298,5 +298,6 @@ defaults:
       layout: single
       author_profile: true
       classes: wide
+      mathjax: true
     sidebar:
       nav: sidebar-sample

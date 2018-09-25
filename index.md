@@ -3,11 +3,8 @@ layout: home
 author_profile: true
 mathjax: true
 sidebar:
-  title: "Sample Title"
   nav: sidebar-sample
 ---
-
-
 It's very easy to make some words **bold** and other words *italic*  and yet other ~~strikethrough~~ with Markdown. You can even [link to Google!](http://google.com)
 
 # This is an <h1> tag
