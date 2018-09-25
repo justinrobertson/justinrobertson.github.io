@@ -2,6 +2,7 @@
 layout: home
 author_profile: true
 mathjax: true
+toc: true
 ---
 # Artificial Life Models in Software
 
