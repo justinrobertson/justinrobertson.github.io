@@ -1,11 +1,9 @@
-(#top)
-[Banzhaf & Yamamoto book](#Banzhaf)
-List of relevant articles
-MetaChem
-York referencing
-Source code examples and breakdown
-Academic resources
-Online Courses
+---
+layout: home
+author_profile: true
+mathjax: true
+---
+
 
 # Artificial Life Models in Software
 
@@ -64,7 +62,11 @@ The RGB chameleons are given as a non-constructive explicit chemistry (ie no new
 
 ##### Measuring time
 
-Time in an AChem is proportional to the number of collisions and inversely proportional to the size of the reactor. Hence  
+Time in an AChem is proportional to the number of collisions and inversely proportional to the size of the reactor. Hence
+
+$$t = N/M$$
+
+where N is the number of collisions and M is the size of the reactor. In this way, the reaction rate slows down if (a) the number of collisions decreases or (b) the size of the reactor increase, both of which are intuitive.
 
 
 ## York referencing (#referencing)
