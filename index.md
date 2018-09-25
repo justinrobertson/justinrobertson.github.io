@@ -9,8 +9,8 @@ sidebar:
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      <p>{{ post.excerpt }</p>}
-      <p>{{ post.field }</p>}
+      <p>{{ post.excerpt }}</p>
+      <p>{{ post.field }}</p>
     </li>
   {% endfor %}
 </ul>
