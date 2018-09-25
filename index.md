@@ -5,6 +5,14 @@ mathjax: true
 sidebar:
   nav: sidebar-sample
 ---
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
 It's very easy to make some words **bold** and other words *italic*  and yet other ~~strikethrough~~ with Markdown. You can even [link to Google!](http://google.com)
 
 # This is an <h1> tag
