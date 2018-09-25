@@ -2,7 +2,9 @@
 layout: home
 author_profile: true
 mathjax: true
-toc: true
+sidebar:
+  title: "Sample Title"
+  nav: sidebar-sample
 ---
 # Artificial Life Models in Software
 
