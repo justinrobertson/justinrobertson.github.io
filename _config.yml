@@ -287,8 +287,8 @@ defaults:
       related: true
       classes: wide
       mathjax: true
-    sidebar:
-      nav: sidebar-sample
+#    sidebar:
+#      nav: sidebar-sample
 
   # _pages
   - scope:
@@ -299,5 +299,5 @@ defaults:
       author_profile: true
       classes: wide
       mathjax: true
-    sidebar:
-      nav: sidebar-sample
+#    sidebar:
+#      nav: sidebar-sample
