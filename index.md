@@ -3,8 +3,6 @@ layout: home
 author_profile: true
 mathjax: true
 ---
-
-
 # Artificial Life Models in Software
 
 ## Chapter 10: Artificial Chemistries (Kaleta)
